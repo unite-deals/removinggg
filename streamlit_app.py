@@ -1,4 +1,4 @@
- segementation & background removal import io
+import io
 import zipfile
 from pathlib import Path
 import streamlit as st
