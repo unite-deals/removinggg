@@ -1,4 +1,4 @@
-import io
+ segementation & background removal import io
 import zipfile
 from pathlib import Path
 import streamlit as st
@@ -12,7 +12,7 @@ ALLOWED_TYPES = ["png", "jpg", "jpeg"]
 
 def setup_page():
     """Sets up the Streamlit page configuration."""
-    st.set_page_config(page_title="Background Remover", page_icon="✂️")
+    st.set_page_config(page_title="ObjectSegmentation & removing", page_icon="✂️")
     hide_streamlit_style()
 
 
